@@ -17,7 +17,7 @@ public class TestCooperative {
         System.out.println("Current loan amount: " + member1.getLoanAmount()
         );
 
-        System.out.println("\nPaying 1.000.000 installments");
+        System.out.println("\nPaying 100.000 installments");
         member1.installment(10000);
         System.out.println("Current loan amount: " + member1.getLoanAmount()
         );
